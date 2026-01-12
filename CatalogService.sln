@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11312.151 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
@@ -18,6 +18,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.UnitTests", "tests\CatalogService.UnitTests\CatalogService.UnitTests.csproj", "{5660F742-221F-4CFD-9EA3-4D28E56CCCAA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.IntegrationTests", "tests\CatalogService.IntegrationTests\CatalogService.IntegrationTests.csproj", "{92B1650F-494E-4ACE-8EE2-B971228F5E8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{7C66551F-7578-448A-B2C9-69BB369D500E}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -112,5 +119,8 @@ Global
 		{0B48E04B-F526-4BC4-99D0-58D73FEC4A23} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{5660F742-221F-4CFD-9EA3-4D28E56CCCAA} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 		{92B1650F-494E-4ACE-8EE2-B971228F5E8E} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F34549E6-FBAB-4EAC-87A3-8A27787A527F}
 	EndGlobalSection
 EndGlobal
