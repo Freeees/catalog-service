@@ -167,7 +167,7 @@ docker compose down -v     # containers + data removed
 1. `docker compose up -d postgres`
 2. `dotnet ef database update`
 3. `dotnet run --project src/CatalogService.Api`
-4. Use Swagger: http://localhost:8080/swagger/index.html
+4. Use Swagger
 5. `dotnet test`
 
 ---
